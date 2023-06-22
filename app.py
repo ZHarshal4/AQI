@@ -277,7 +277,7 @@ if selected == "AQI Info":
 	with st.container():
 		col1, col2 = st.columns(2)
 		with col1:
-			htp1 = "https://raw.githubusercontent.com/ZHarshal4/AQI/main/aqi.jpg"
+			htp1 = "https://raw.githubusercontent.com/ZHarshal4/AQI/main/aqi.jpg?token=GHSAT0AAAAAACEFUWS7KEOO3X3WI66YLLQ6ZET4AJA"
 			st.image(htp1, caption="AQI logo",width=600)
 		
 		with col2:
@@ -288,7 +288,7 @@ if selected == "AQI Info":
 		st.subheader("The Central Pollution Control Board along with State Pollution Control Boards has been operating National Air Monitoring Program (NAMP) covering 240 cities of the country having more than 342 monitoring stations. An Expert Group comprising medical professionals, air quality experts, academia, advocacy groups, and SPCBs was constituted and a technical study was awarded to IIT Kanpur. IIT Kanpur and the Expert Group recommended an AQI scheme in 2014. While the earlier measuring index was limited to three indicators, the new index measures eight parameters.")
 		st.subheader("There are six AQI categories, namely Good, Satisfactory, Moderate, Poor, Severe, and Hazardous. The proposed AQI will consider eight pollutants (PM10, PM2.5, NO2, SO2, CO, O3, NH3, and Pb) for which short-term (up to 24-hourly averaging period) National Ambient Air Quality Standards are prescribed.")
 	with st.expander("AQI Levels and Severity"):
-		htp="https://raw.githubusercontent.com/ZHarshal4/AQI/main/ScaleInfo.JPG"
+		htp="https://raw.githubusercontent.com/ZHarshal4/AQI/main/ScaleInfo.JPG?token=GHSAT0AAAAAACEFUWS73GRNLXQ2QYWY6VXGZET4AZA"
 		st.image(htp, caption= 'AQI Levels')
 	with st.expander("Precautions"):
 		st.subheader(" Stay indoors if you can, with the windows and doors closed.Avoid frying food, which can increase indoor smoke.")
