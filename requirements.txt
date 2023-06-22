@@ -1,0 +1,11 @@
+streamlit
+streamlit_option_menu
+pandas
+numpy
+statsmodels
+requests
+pytz
+datetime
+seaborn
+matplotlib
+july
